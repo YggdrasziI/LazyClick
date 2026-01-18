@@ -1,6 +1,5 @@
 package net.yggdraszil.lazyclick;
 
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod(LazyClick.MOD_ID)

@@ -8,14 +8,17 @@ public class HoldClientTick {
         Minecraft mc = Minecraft.getInstance();
 
         if (mc.player == null || mc.screen != null) {
-            // reset si écran ouvert
             HoldState.reset();
-            mc.options.keyAttack.setDown(false);
-            mc.options.keyUse.setDown(false);
             return;
         }
 
-        mc.options.keyAttack.setDown(HoldState.isHoldingAttack());
-        mc.options.keyUse.setDown(HoldState.isHoldingUse());
+        if (HoldState.isHoldingAttack()) {
+            mc.options.keyAttack.setDown(true);
+        }
+
+        if (HoldState.isHoldingUse()) {
+            mc.options.keyUse.setDown(true);
+        }
     }
 }
+
