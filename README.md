@@ -2,4 +2,4 @@ A very simple little mod that allows you to maintain the “Attack/Break” and 
 
 Pretty useful in certain Skyblock modpacks
 
-By default "G" and "H" are used but its fuly customizable to your attent so fill free to do it !
+By default, "G" and "H" are used, but it's fully customizable to your intent, so feel free to do it!
