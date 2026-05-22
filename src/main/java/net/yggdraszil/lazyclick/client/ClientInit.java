@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(
         modid = LazyClick.MOD_ID,
-        bus = Mod.EventBusSubscriber.Bus.FORGE, // 🔥 IMPORTANT
+        bus = Mod.EventBusSubscriber.Bus.FORGE,
         value = Dist.CLIENT
 )
 public class ClientInit {
